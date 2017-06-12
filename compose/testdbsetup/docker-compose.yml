@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+  testdbsetup:
+    network_mode: "host"
+    container_name: testdbsetup
+    image: frickt/testdbsetup:1.0.0
+    environment:
+      - SVN_USER=tiexxx
+      - SVN_PASSWORD=xxx
