@@ -2,7 +2,7 @@ version: '2.1'
 services:
   testdb:
     container_name: testdb
-    image: frickt/testdb:1.0.0
+    image: frickt/testdb:1.0.1
     shm_size: 1g
     volumes:
       - /Users/thomasfrick/docker/oracle11202/home/oracle/oradata:/opt/oracle/oradata # persistent oracle database data.
